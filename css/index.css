@@ -1,0 +1,89 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;
+    background-image: url("../images/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+}
+
+img {
+    position: relative;
+    border-radius: 60px;
+    border: solid rgb(49, 13, 175);
+    float: left;
+}
+
+nav button {
+    border: none;
+    outline: none;
+    padding: 0 2%;
+    background-color: inherit;
+    height: 2.5%;
+    margin: 0;
+    color: blue;
+}
+
+nav button:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button.buttonActive {
+    font-weight: bold;
+    color: blue;
+}
+
+.tabs section {
+    display: none;
+}
+
+section.tabActive {
+    display: block;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 2.5%;
+}
+
+main {
+    padding: 0% 3%;
+    width: 60%;
+    margin: 0 auto;
+    background-size: cover;
+    float: right;
+    color: black;
+}
+
+* {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+    display: inline;
+    width: 25%;
+    float: left;
+    color: black;
+}
+
+.rightbar {
+    display: inline;
+    width: 30%;
+    float: left;
+}
+
+.article {
+    display: inline;
+    width: 60%;
+    float: center;
+}
+
+p {
+    text-align: justify;
+}
